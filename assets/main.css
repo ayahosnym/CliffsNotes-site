@@ -1,0 +1,613 @@
+
+/* Global style  */
+body{
+font-family: 'Lato', sans-serif;
+background-color: #252525;
+padding: 0 5rem;
+height: 3000px;
+}
+
+@media screen and (max-width:1200px){
+body{
+padding: 0;
+}
+
+}
+
+.yellow-color{
+color: #FEF135;
+}
+
+.yellow-bg{
+background-color:#FEF135 ;
+
+}
+h1 , h2 , h3 ,h4 , h5,h6 , p {
+margin: 0;
+}
+
+/* the  part of the Ads  */
+div#ads{
+position: relative;
+
+}
+div#ads a {
+position: absolute;
+top: 10px;
+right: 10px;
+background-color: white;
+padding: 1px 4px;
+text-decoration: none;
+}
+
+div#ads a:hover {
+color: white;
+background-color: #000000;
+}
+/* the end  of the part of the Ads  */
+
+/* START part1  */
+section.part1 div:first-child{
+position: relative
+}
+section.part1 div:first-child a{
+position:absolute;
+right: 1rem;
+color: black;
+text-decoration: none;
+text-align: center;
+}
+section.part1 div:first-child a:hover{
+background-color: #FEF300;
+
+}
+section.part1 div:last-child {
+color: #6b6b6b; 
+/* border: 2px solid gold; */
+font-size: 1.4em;
+/* padding-left:10px;  */
+} 
+section.part1 div span.triangle{
+width: 60px;
+height: 60px;
+-webkit-clip-path: polygon(48% 70%, 31% 100%, 67% 100%);
+clip-path: polygon(48% 70%, 31% 100%, 67% 100%);
+margin: 0;
+background-color: gold;
+display: inline-block;
+font-size: .3em;
+
+
+}
+/* END part1  */
+
+
+/* START part2 brand name   */
+
+section.part2 {
+background-color: black;
+padding: 2rem;
+
+}
+
+section.part2 div  {
+position: relative;
+}
+
+
+section.part2 div h1 i{
+font-size: .2em;
+position: absolute;
+}
+
+section.part2 h1 {
+color: white;
+font-weight: 700;
+font-size: 3em;
+}
+
+/* END  part2  brand-name */
+
+/* SATRT  patt3  */
+section.part3 {
+background-color:#FEF300;
+}
+section.part3 div:first-child div{
+background-color: black;
+transform: skew(-40deg);
+display: inline-block;
+padding:10px 3px;
+margin: 0 1.5rem;
+width: 2.3rem;
+}
+section.part3 div:nth-child(2){
+background-color: black;
+margin-top: -8px;
+height: 3px;
+}
+
+@media screen and (max-width:768px){
+section.part3 div:first-child div{
+background-color: black;
+transform: skew(-40deg);
+display: inline-block;
+padding:10px 8px;
+margin: 0 1.2rem;
+width: 1.5rem;
+}
+section.part3 div:nth-child(2){
+background-color: black;
+margin-top: -8px;
+height: 5px;
+} 
+}
+
+@media screen and (max-width:576px){
+section.part3 div:first-child div{
+background-color: black;
+transform: skew(-40deg);
+display: inline-block;
+padding:10px 5px;
+margin: 0 .8rem;
+width: 1.4rem;
+}
+section.part3 div:nth-child(2){
+background-color: black;
+margin-top: -8px;
+height: 5px;
+} 
+}
+
+/* END  patt3  */ 
+
+
+
+
+/* SATRT  patt4  */
+
+/* start the first div in part4 the texts  */
+section.part4 {
+
+background-image: linear-gradient(rgba(233, 233, 233, 0.699),rgba(255, 255, 255, 0.582)) , url('../images/bgclassroom.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+section.part4 div:first-child h1{
+font-size: 3em;
+padding: 1rem;
+display: inline-block;
+margin: 5rem 0 1rem 0;
+}
+
+section.part4 div:first-child p{
+font-weight: 700;
+} 
+
+/* end the first div in part4  search the texts  */
+
+/* start the second div in part4 the search  */
+section.part4 div.search{
+display: flex;
+align-items: center;
+width: 60%;
+text-align: center;
+margin: 1rem auto;
+background-color: #FEF300;
+
+}
+section.part4 div:nth-child(2)  input{
+border: 6px solid #FEF300;
+padding: 1.3rem 0  1.3rem 2rem;
+}
+
+section.part4 div:nth-child(2) i{
+text-align: center;
+padding: .6rem 1.2rem;
+background-color: #FEF300;
+color: black;
+font-size: 2em;
+}
+
+section.part4 div:nth-child(2) i:hover{
+background-color: black;
+color: white;
+}
+/* end the second div in part4 the search  */
+
+/* start the third div in part4 the navbar  */
+
+section.part4 div.navbar-part4{
+background-color: rgba(0, 0, 0, 0.6);
+color: white;
+margin: 2.5rem 0 0;
+
+}
+section.part4 div.navbar-part4  ul {
+display: flex;
+justify-content: space-around;
+padding: 2rem 0;
+margin: 0;
+}
+section.part4 div.navbar-part4 ul li a{
+text-decoration: none;
+color: white;
+font-size: 1.4em;
+}
+section.part4 div.navbar-part4 ul li a:hover{
+color: #FEF300;
+}
+
+/* end the third div in part4 the navbar */
+/* END  patt4  */ 
+
+/* START part5  featured article  */
+
+section.part5 div.row div:first-child div{
+background-color: black;
+overflow: hidden;
+height: 22rem;
+margin: 1rem 0 4rem ;
+position: relative;
+cursor: pointer; 
+}
+section.part5 div.row div:first-child div i {
+position: absolute;
+font-size: 6em;
+display: inline-block;
+height: 100%;
+width: 100%;
+line-height: 22rem;
+z-index: 3;
+
+} 
+section.part5 div.row div:first-child div i:hover{
+  background-color: #5f5e5ec5;
+  } 
+section.part5 div.row div:first-child div h1  {
+font-size:4.6em;
+font-weight: 900;
+text-align: center; 
+}
+section.part5 div.row div:first-child div h1 span {
+font-weight: 1000;
+font-size: 1.5em;
+}
+section.part5 div.row div:nth-child(2) div{
+background-image: url('../images/computer.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 22rem;
+position: relative;
+margin: 1rem 0 4rem ;
+}
+section.part5 div.row div:nth-child(2) div h1{
+position:absolute;
+bottom:0;
+padding: 1.3rem .5rem;
+background: rgba(0, 0, 0, 0.5);
+width: 100%;
+transition: all .5s ease-in-out;
+font-size: 1.8em;
+text-align: center;
+}
+section.part5 div.row div:nth-child(2) div h1 a{
+text-decoration: none;
+}
+section.part5 div.row div:nth-child(2) div h1:hover{
+background: rgba(95, 95, 95, 0.1);
+}
+
+section.part5 div.container div:nth-child(3) {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+section.part5 div.container div:nth-child(3) a {
+text-decoration: none;
+border: 2px solid black;
+color: black;
+}
+
+section.part5 div.container div:nth-child(3) a:hover {
+text-decoration: none;
+background-color: black;
+color: #FEF300;
+}
+
+/* END part5  featured article  */
+
+/*    START part6  part with mix color yellow and       */ 
+
+/* no style because it is the same part3 */  
+
+/*   END  part6  part with mix color yellow and          */ 
+
+
+/* START part7   brand name  it is like  part2  with a little of cahnges  */
+section.part7 div  {
+position: relative;
+}
+section.part7 div h1 span:first-child{
+font-weight: normal;
+font-size: .8em;
+}
+section.part7 div h1 i{
+font-size: .2em;
+position: absolute;
+}
+/* END part7  brand name   */
+
+/* START part8    */
+section.table-in-part8{
+background-color: #ffffff;
+
+}
+
+/* section.table table.table-striped{
+margin-bottom: 0!important;
+} */
+section.table-in-part8  thead{
+background-color: #000000;
+color: #c5c4c4;
+}
+
+section.table-in-part8  a{
+color: #000000;
+} 
+/* END part8    */
+
+
+/* START part9    */
+/* black-yellow divider
+it is the same like part3 */
+/* END part9     */
+/* START part10  test-prep  it is look like part 2 brand name but with few changes  */
+section.part10 div.test-prep{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+section.part10  div.test-prep i {
+margin-right: 8px; 
+}
+section.part10  div.test-prep span{
+border-right: 2px solid yellow;
+color:transparent;
+display: inline-block;
+height: 2.5rem;
+overflow: hidden;
+} 
+/* END part10   test-prep  it is look like part 2 brand name but with few changes */
+
+/* START part11 ACT-GRE  */
+
+section.ACT-GRE  {
+background-color: #CCCCCC;
+}
+section.part11 div.ACT-GRE-Praxis-SAT{
+position: relative;
+width: 230px;
+height: 200px;
+background-image: url(../images/lines.png);
+}
+
+@media screen and (max-width:992px){
+section.ACT-GRE.part11 div.ACT-GRE-Praxis-SAT{
+border-left: 2px solid #ffffff;
+width:200px; 
+}
+}
+@media screen and (max-width:768px){
+section.ACT-GRE.part11 div.ACT-GRE-Praxis-SAT{
+width: 250px;
+text-align: center;
+margin: 1rem;
+border:none;
+}
+}
+@media screen and (max-width:576px){
+section.ACT-GRE.part11 div.ACT-GRE-Praxis-SAT{
+width: 60%;
+height: 200px;
+text-align: center;
+margin: 10px auto;
+}
+}
+section.part11 div.ACT-GRE-Praxis-SAT:hover{
+background-color: white;
+}
+
+section.part11 div.ACT-GRE-Praxis-SAT h1{ 
+line-height: 200px;
+} 
+section.part11 div.the-black-Triangle-in-the-corner{
+width: 200px;
+height: 200px;
+background-color: black;
+position: absolute ;
+display: inline-block;
+top:0;
+left:0px; 
+-webkit-clip-path: polygon(20% 0, 0 18%, 22% 17%);
+clip-path: polygon(20% 0, 0 18%, 22% 17%);
+}
+
+section.part11 div.the-gray-Triangle-in-the-corner{
+width: 200px;
+height: 200px;
+background-color: #CCCCCC;
+position: absolute ;
+display: inline-block;
+top:0;
+left:0; 
+-webkit-clip-path: polygon(21% 0, 0 18%, 0 0);
+clip-path: polygon(21% 0, 0 18%, 0 0);
+} 
+
+/* START part11  ACT-GRE */
+
+/* START part12   Quick Reviews */
+
+section.Quick-Reviews {
+background-color: #CCCCCC;
+}
+section.Quick-Reviews div.word-Quick-Reviews {
+background-color: #000000;
+}
+section.Quick-Reviews div.row div h1{
+margin-bottom:1.2rem;
+box-shadow: 2px 2px 6px rgb(85, 85, 85) ;
+padding:8px;
+}
+section.Quick-Reviews div.row div h1:hover{
+background-color: #ffffff;
+}
+section.Quick-Reviews div.row div h1 a {
+font-size: .6em;
+color: black;
+text-decoration: none;
+}
+
+section.Quick-Reviews div.ads  {
+padding-bottom: 2rem;
+} 
+
+
+@media screen and (max-width:992px) {
+section.Quick-Reviews div.ads {
+margin: 0 auto;
+text-align: center;  
+} 
+
+} 
+/*  END part12   Quick Reviews  */
+
+
+
+/* START part14  Jion Our Newsletter  */
+section.Join-Our-Newsletter  button.submit{
+background-color: black;
+color: white;
+}
+
+section.Join-Our-Newsletter  button.submit{
+background-color: black;
+color: white;
+padding-left:3.5rem;
+padding-right:3.5rem;
+text-align: center;
+}
+
+
+@media screen and (max-width:992px){
+section.Join-Our-Newsletter  div.div-button{
+text-align: center;
+padding: 0;
+}
+section.Join-Our-Newsletter  div.div-button button {
+width: 85%;
+text-align: center;
+padding-left: 20%;
+
+}
+}
+/* END  part14  Jion Our Newsletter  */
+
+
+/* START part16 contact us  */
+
+section.contact-us{
+background-color: #3E3D3D;
+}
+section.contact-us div.row div:first-child{
+text-align: center;
+}
+
+section.contact-us div.row div:first-child a{
+color:white;
+margin: 0 .4rem 0 ;
+font-size: .9em;
+}
+section.contact-us div.row div:first-child a:hover{
+color: #FEF135;
+text-decoration: none;
+}
+section.contact-us div.row div:nth-child(2) {
+text-align:start;
+}
+section.contact-us div.row div:nth-child(2)  a {
+color: black;
+}
+section.contact-us div.row div:nth-child(2) i {
+  display: inline-block;
+  background-color: white;
+  font-size: 20px;
+  margin: 0 0.2rem 0;
+  padding: 11px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width:992px) {
+
+section.contact-us div.row div:nth-child(2)  {
+display: inline-block;
+text-align: center; 
+margin-top: 2%;
+}
+
+}
+
+/* END part16 contact us  */
+
+/* START the footer  */
+footer{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #CCCCCC;
+padding: 2%;
+font-size: .8em;
+}
+
+footer div:nth-child(1) {
+margin-right:20px;
+
+} 
+
+footer div:nth-child(2) ul{
+display: flex;
+}
+
+footer div:nth-child(2) ul li{
+margin-right:20px;
+}
+footer div:nth-child(2)  ul li a{
+color: #000000; 
+}
+footer  ul li a:hover{
+background-color:#FEF135;
+text-decoration: none;
+}
+
+@media screen and (max-width:992px) {
+footer {
+display: block;
+text-align: center;
+}
+} 
+
+@media screen and (max-width:992px) {
+footer div:nth-child(2) ul {
+justify-content: center;
+}
+} 
+/*  END  footer */
+
+
+
+
+
+
+
